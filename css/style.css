@@ -1,0 +1,130 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+:root{
+    --section-padding:100px;
+}
+h1,h2,h3,h4,h5{
+    letter-spacing:3.8px;
+}
+
+/* NavBar */
+.navbar{
+    justify-content:space-between;
+    padding-right:40px;
+    padding-left:40px;
+    position: sticky;
+    top:0px;
+    letter-spacing: 4.5px;
+    border-bottom:1.5px solid rgb(170, 169, 169);
+}
+.navbar .nav-item:hover,
+.navbar .navbar-brand:hover{
+    background-color:rgb(193, 190, 190)
+}
+/* NavBar */
+
+
+/* Landing */
+.landing{
+    background-image:url('Image/hamburger.jpg');
+    background-size: cover;
+    min-height:100vh;
+    max-width: 100%;
+}
+.landing .text{
+    position:absolute;
+    bottom:-20px;
+    left:40px;
+    font-size:35px;
+    color:#777;
+}
+
+/* Landing */
+
+
+/* About */
+.about{
+    background-color:rgb(238, 238, 238);
+}
+.about .container{
+    padding:var(--section-padding) 0px;
+}
+.about .container .row .image,
+.menu .container .row .image{
+    opacity: 70%;
+}
+.about .container .row .text h2{
+    text-align: center;
+    font-size:35px;
+    letter-spacing: 3.8px;
+    margin-bottom:30px;
+}
+.about .container .row .text .firstp{
+    letter-spacing: 3.8px;
+    text-align: center;
+
+}
+.container .row .text p{
+    font-size:20px;
+    margin-bottom:65px;
+}
+.about .container .row .text .change{
+    color:#777
+}
+/* About */
+
+/* Menu */
+.menu .container{
+    padding:var(--section-padding) 0px;
+}
+.menu .container .row .text h2{
+    text-align:center;
+    margin-bottom:60px;
+    font-size:40px;
+
+}
+.menu .container .row .text .text-content p{
+    color:#777;
+}
+/* Menu */
+
+
+/* Contact */
+.contact .container{
+    padding:var(--section-padding) 50px;
+}
+.contact .container h1{
+    margin-bottom:50px;
+}
+.contact .container span{
+    color:#607D8B;
+    font-weight: bold;
+    font-size:20px; 
+    margin-bottom:20px;
+}
+
+.contact .container .form-control{
+    margin:40px 0px;
+    border-style:none;
+    border-bottom: 1.5px solid #83b3fb;
+}
+/* Contact */
+
+/* Footer */
+.footer{
+    background-color:rgb(196, 196, 196);
+    height: 100px;
+    text-align: center;
+    color:#777;
+    font-size:20px;
+}
+
+.footer span{
+    font-size:25px;
+    color:#237bff;
+    font-weight:bold;
+}
+
+
+/* Footer */
